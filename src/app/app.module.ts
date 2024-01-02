@@ -18,7 +18,7 @@ import { StompService } from './services/websocket/stomp.service';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { ChartModule } from 'angular-highcharts';
 
-const config: SocketIoConfig = { url: 'http://localhost:8080/socket.io', options: {} };
+const config: SocketIoConfig = { url: 'http://localhost:8081/socket.io', options: {} };
 
 
 
